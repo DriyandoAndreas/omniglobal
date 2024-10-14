@@ -74,7 +74,7 @@ export default function Header() {
             </Button>
           </div>
           <div>
-            <Button className="bg-sky-800 font-bold hover:bg-sky-950">JOIN US</Button>
+            <Button className="bg-lime-400 font-bold hover:bg-lime-950">JOIN US</Button>
           </div>
         </div>
       </nav>
