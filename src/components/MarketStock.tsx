@@ -17,11 +17,12 @@ export default function MarketStock() {
         dateRange: "12M",
         showChart: true,
         locale: "id",
+        width: "100%",
+        height: "500",
+        largeChartUrl: "",
         isTransparent: false,
         showSymbolLogo: true,
         showFloatingTooltip: false,
-        width: "100%",
-        height: "450",
         plotLineColorGrowing: "rgba(41, 98, 255, 1)",
         plotLineColorFalling: "rgba(41, 98, 255, 1)",
         gridLineColor: "rgba(42, 46, 57, 0)",
@@ -33,48 +34,128 @@ export default function MarketStock() {
         symbolActiveColor: "rgba(41, 98, 255, 0.12)",
         tabs: [
           {
-            title: "Indices",
+            title: "Stock",
             symbols: [
-              { s: "FOREXCOM:SPXUSD", d: "S&P 500 Index" },
-              { s: "FOREXCOM:NSXUSD", d: "US 100 Cash CFD" },
-              { s: "FOREXCOM:DJI", d: "Dow Jones Industrial Average Index" },
-              { s: "INDEX:NKY", d: "Nikkei 225" },
-              { s: "INDEX:DEU40", d: "DAX Index" },
-              { s: "FOREXCOM:UKXGBP", d: "FTSE 100 Index" },
-              { s: "IDX:BBCA", d: "BBCA" },
+              {
+                s: "IDX:BBCA",
+                d: "BANK CENTRAL ASIAA",
+              },
+              {
+                s: "IDX:BBRI",
+                d: "BANK RAKYAT INDONESIA",
+              },
+              {
+                s: "NYSE:TLK",
+                d: "TELKOM",
+              },
+              {
+                s: "IDX:BMRI",
+                d: "BANK MANDIRI",
+              },
+              {
+                s: "IDX:UNVR",
+                d: "UNILEVER INDONESIA",
+              },
+              {
+                s: "IDX:ASII",
+                d: "ASTRA INTERNATIONAL",
+              },
+              {
+                s: "IDX:HMSP",
+                d: "HANJAYA MANDALA SAMPOERNA",
+              },
+              {
+                s: "IDX:TPIA",
+                d: "CHANDRA ASTRI PASIFIC TBK",
+              },
+              {
+                s: "IDX:BBNI",
+                d: "BANK NEGARA INDONESIA",
+              },
+              {
+                s: "IDX:BRPT",
+                d: "BARITO PASIFIC TBK",
+              },
             ],
+            originalTitle: "Indices",
           },
           {
-            title: "Futures",
+            title: "Indexs",
             symbols: [
-              { s: "CME_MINI:ES1!", d: "S&P 500" },
-              { s: "CME:6E1!", d: "Euro" },
-              { s: "COMEX:GC1!", d: "Gold" },
-              { s: "NYMEX:CL1!", d: "WTI Crude Oil" },
-              { s: "NYMEX:NG1!", d: "Gas" },
-              { s: "CBOT:ZC1!", d: "Corn" },
+              {
+                s: "INDEX:COMPOSITE",
+              },
+              {
+                s: "IDX:KOMPAS100",
+              },
+              {
+                s: "SP:SPX",
+              },
+              {
+                s: "ASX:NSX",
+              },
+              {
+                s: "TVC:DJI",
+              },
+              {
+                s: "INDEX:NKY",
+              },
+              {
+                s: "HKEX:HSI1!",
+              },
+              {
+                s: "TVC:UKX",
+              },
             ],
+            originalTitle: "Futures",
           },
           {
-            title: "Bonds",
+            title: "Commodity",
             symbols: [
-              { s: "CBOT:ZB1!", d: "T-Bond" },
-              { s: "CBOT:UB1!", d: "Ultra T-Bond" },
-              { s: "EUREX:FGBL1!", d: "Euro Bund" },
-              { s: "EUREX:FBTP1!", d: "Euro BTP" },
-              { s: "EUREX:FGBM1!", d: "Euro BOBL" },
+              {
+                s: "CME_MINI:ES116V2024",
+              },
+              {
+                s: "CME:6S1!",
+              },
+              {
+                s: "COMEX:GC1!",
+              },
+              {
+                s: "NYMEX:CL1!",
+              },
+              {
+                s: "NYMEX:NG1!",
+              },
+              {
+                s: "CBOT:ZC1!",
+              },
             ],
+            originalTitle: "Bonds",
           },
           {
             title: "Forex",
             symbols: [
-              { s: "FX:EURUSD", d: "EUR to USD" },
-              { s: "FX:GBPUSD", d: "GBP to USD" },
-              { s: "FX:USDJPY", d: "USD to JPY" },
-              { s: "FX:USDCHF", d: "USD to CHF" },
-              { s: "FX:AUDUSD", d: "AUD to USD" },
-              { s: "FX:USDCAD", d: "USD to CAD" },
+              {
+                s: "FX:EURUSD",
+              },
+              {
+                s: "OANDA:GBPUSD",
+              },
+              {
+                s: "CAPITALCOM:USDJPY",
+              },
+              {
+                s: "OANDA:USDCHF",
+              },
+              {
+                s: "FX:AUDUSD",
+              },
+              {
+                s: "OANDA:USDCAD",
+              },
             ],
+            originalTitle: "Forex",
           },
         ],
       });

@@ -3,6 +3,7 @@ import localFont from "next/font/local";
 import "./globals.css";
 import { ThemeProvider } from "@/components/theme-provider";
 import Header from "@/components/Header";
+import Footer from "@/components/Footer";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -16,7 +17,7 @@ const geistMono = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "Omni Global",
+  title: "Omni Milenia Global",
   description: "Trade Now!",
 };
 
@@ -27,7 +28,6 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressContentEditableWarning>
-      
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
@@ -39,6 +39,7 @@ export default function RootLayout({
         >
           <Header />
           <main>{children}</main>
+          <Footer />
         </ThemeProvider>
       </body>
     </html>

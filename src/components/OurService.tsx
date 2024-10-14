@@ -16,7 +16,7 @@ import Link from "next/link";
 export default function OurService() {
   return (
     <>
-      <div className="bg-lime-100 dark:bg-current">
+      <div className="bg-sky-100 dark:bg-current">
       <div className="p-8">
         <p className="text-4xl font-bold text-center dark:text-black">Our Services</p>
         <div className="flex flex-wrap gap-4 py-8">

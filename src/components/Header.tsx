@@ -45,7 +45,7 @@ export default function Header() {
   return (
     <>
       {/* Desktop Nav */}
-      <nav className="hidden lg:flex items-center justify-between px-8 py-4">
+      <nav className="hidden lg:flex items-center justify-between px-8 py-4 top-0 sticky z-40 bg-white dark:bg-current">
         <div className="flex p-2 space-x-4">
           <Link href={"/"}>
             <Image src={logo} alt="omni global" height={75} priority={true} />
@@ -57,12 +57,12 @@ export default function Header() {
               </Link>
             </div>
             <div>
-              <Link href={"/"} className="font-bold">
+              <Link href={"/about"} className="font-bold">
                 About Us
               </Link>
             </div>
             <div>
-              <Link href={"/"} className="font-bold">
+              <Link href={"/contact"} className="font-bold">
                 Contact Us
               </Link>
             </div>
@@ -104,7 +104,7 @@ export default function Header() {
             </Button>
           </div>
           <div>
-            <Button className="bg-lime-400 font-bold hover:bg-lime-600 dark:hover:bg-lime-500 dark:text-white">
+            <Button className="bg-sky-600 font-bold hover:bg-sky-800 dark:hover:bg-sky-500 dark:text-white">
               JOIN US
             </Button>
           </div>
@@ -146,7 +146,7 @@ export default function Header() {
             </Button>
           </div>
           <div>
-            <Button className="bg-lime-400 font-bold hover:bg-lime-600 dark:hover:bg-lime-500 dark:text-white">
+            <Button className="bg-sky-600 font-bold hover:bg-sky-800 dark:hover:bg-sky-500 dark:text-white">
               JOIN US
             </Button>
           </div>
