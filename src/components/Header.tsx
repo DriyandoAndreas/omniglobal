@@ -5,11 +5,19 @@ import { Button } from "@/components/ui/button";
 import Image from "next/image";
 import { Menu, X,Phone } from "lucide-react"; 
 import Link from "next/link";
+import { Moon, Sun } from "lucide-react";
+import { useTheme } from "next-themes";
 
+import {
+  DropdownMenu,
+  DropdownMenuContent,
+  DropdownMenuItem,
+  DropdownMenuTrigger,
+} from "@/components/ui/dropdown-menu";
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const menuRef = useRef<HTMLDivElement>(null);
-
+  const { setTheme } = useTheme();
   
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
@@ -62,19 +70,43 @@ export default function Header() {
         </div>
         <div className="flex space-x-4">
           <div>
+            <div>
+              <DropdownMenu>
+                <DropdownMenuTrigger asChild>
+                  <Button variant="outline" size="icon">
+                    <Sun className="h-[1.2rem] w-[1.2rem] rotate-0 scale-100 transition-all dark:-rotate-90 dark:scale-0" />
+                    <Moon className="absolute h-[1.2rem] w-[1.2rem] rotate-90 scale-0 transition-all dark:rotate-0 dark:scale-100" />
+                    <span className="sr-only">Toggle theme</span>
+                  </Button>
+                </DropdownMenuTrigger>
+                <DropdownMenuContent align="end">
+                  <DropdownMenuItem onClick={() => setTheme("light")}>
+                    Light
+                  </DropdownMenuItem>
+                  <DropdownMenuItem onClick={() => setTheme("dark")}>
+                    Dark
+                  </DropdownMenuItem>
+                  <DropdownMenuItem onClick={() => setTheme("system")}>
+                    System
+                  </DropdownMenuItem>
+                </DropdownMenuContent>
+              </DropdownMenu>
+            </div>
+          </div>
+          <div>
             <Button variant="outline">
               <div className="flex space-x-2">
                 <div>
                   <Phone size={20} />
                 </div>
-                <div>
-                  +628123456789
-                </div>
+                <div>+628123456789</div>
               </div>
             </Button>
           </div>
           <div>
-            <Button className="bg-lime-400 font-bold hover:bg-lime-950">JOIN US</Button>
+            <Button className="bg-lime-400 font-bold hover:bg-lime-600 dark:hover:bg-lime-500 dark:text-white">
+              JOIN US
+            </Button>
           </div>
         </div>
       </nav>
@@ -88,8 +120,8 @@ export default function Header() {
       </nav>
 
       <div
-        ref={menuRef} // Menggunakan ref pada menu
-        className={` z-40 lg:hidden fixed top-0 right-0 h-full w-3/4 bg-white shadow-lg transition-transform transform ${
+        ref={menuRef}
+        className={` z-40 lg:hidden fixed top-0 right-0 h-full w-3/4 bg-white dark:bg-black shadow-lg transition-transform transform ${
           isMenuOpen ? "translate-x-0" : "translate-x-full"
         }`}
       >
@@ -104,12 +136,41 @@ export default function Header() {
             Contact Us
           </Link>
           <div>
-            <Button variant="outline" onClick={toggleMenu}>
-              Hubungi Kami
+            <Button variant="outline">
+              <div className="flex space-x-2">
+                <div>
+                  <Phone size={20} />
+                </div>
+                <div>+628123456789</div>
+              </div>
             </Button>
           </div>
           <div>
-            <Button onClick={toggleMenu}>Bergabung Dengan Kami?</Button>
+            <Button className="bg-lime-400 font-bold hover:bg-lime-600 dark:hover:bg-lime-500 dark:text-white">
+              JOIN US
+            </Button>
+          </div>
+          <div>
+            <DropdownMenu>
+              <DropdownMenuTrigger asChild>
+                <Button variant="outline" size="icon">
+                  <Sun className="h-[1.2rem] w-[1.2rem] rotate-0 scale-100 transition-all dark:-rotate-90 dark:scale-0" />
+                  <Moon className="absolute h-[1.2rem] w-[1.2rem] rotate-90 scale-0 transition-all dark:rotate-0 dark:scale-100" />
+                  <span className="sr-only">Toggle theme</span>
+                </Button>
+              </DropdownMenuTrigger>
+              <DropdownMenuContent align="end">
+                <DropdownMenuItem onClick={() => setTheme("light")}>
+                  Light
+                </DropdownMenuItem>
+                <DropdownMenuItem onClick={() => setTheme("dark")}>
+                  Dark
+                </DropdownMenuItem>
+                <DropdownMenuItem onClick={() => setTheme("system")}>
+                  System
+                </DropdownMenuItem>
+              </DropdownMenuContent>
+            </DropdownMenu>
           </div>
         </div>
       </div>
