@@ -33,7 +33,7 @@ export default function page() {
           <div className="md:flex lg:space-x-4">
             <div className="basis-1/2">
               <h2 className="text-2xl font-bold py-4">Visiion</h2>
-              <div className="min-h-[500px] bg-sky-900 text-white p-4 rounded-md">
+              <div className="min-h-[500px] bg-sky-900 text-white p-8 rounded-md">
                 <ul>
                   <li>
                     1. To become a competitive, high-quality, and competent
@@ -62,7 +62,7 @@ export default function page() {
             </div>
             <div className="basis-1/2">
               <h2 className="text-2xl font-bold py-4">Mission</h2>
-              <div className="min-h-[500px] bg-sky-900 p-4 rounded-md text-white">
+              <div className="min-h-[500px] bg-sky-900 p-8 rounded-md text-white">
                 <ul>
                   <li>
                     1. Optimize company value, contribute to shareholders, and
@@ -123,7 +123,7 @@ export default function page() {
                   </CardTitle>
                 </CardHeader>
                 <CardContent>
-                  <p className="text-center">Direktur Utama</p>
+                  <p className="text-center">Director</p>
                 </CardContent>
               </Card>
             </div>
