@@ -17,15 +17,14 @@ export default function page() {
             About Omni Milenia Global
           </h2>
           <p className="text-white ">
-            Omni Milenia Global, dipimpin oleh Sahud Parulian Sinaga, adalah
-            perusahaan yang bergerak di bidang investasi dengan fokus pada
-            pemberdayaan ekonomi melalui berbagai peluang investasi yang
-            inovatif dan berkelanjutan. Kami berkomitmen untuk menyediakan
-            solusi investasi yang dapat dipercaya, menguntungkan, dan membantu
-            para klien mencapai tujuan keuangan mereka. Dengan keahlian di
-            berbagai sektor dan pendekatan yang proaktif, Omni Milenia Global
-            siap menjadi mitra investasi yang handal bagi investor lokal maupun
-            internasional.
+            Omni Milenia Global, led by Sahud Parulian Sinaga, is an investment
+            company focused on economic empowerment through various innovative
+            and sustainable investment opportunities. We are committed to
+            providing reliable, profitable investment solutions that help
+            clients achieve their financial goals. With expertise across
+            multiple sectors and a proactive approach, Omni Milenia Global is
+            ready to be a trusted investment partner for both local and
+            international investors.
           </p>
         </div>
       </div>
@@ -33,77 +32,75 @@ export default function page() {
         <div className="py-8">
           <div className="md:flex lg:space-x-4">
             <div className="basis-1/2">
-              <h2 className="text-2xl font-bold py-4">Visi</h2>
+              <h2 className="text-2xl font-bold py-4">Visiion</h2>
               <div className="min-h-[500px] bg-sky-900 text-white p-4 rounded-md">
                 <ul>
                   <li>
-                    1. Menjadi perusahaan dagang (Trading Company) yang
-                    kompetitif, berkualitas, berkompetensi serta menguasai
-                    sumber dan jaringan pemasaran di dalam dan luar negeri.
+                    1. To become a competitive, high-quality, and competent
+                    trading company that masters both domestic and international
+                    marketing resources and networks.
                   </li>
                   <li>
-                    2. Menjadi perusahaan dagang yang tangguh di Indonesia yang
-                    berskala nasional, handal, inovatif dan berdaya saing serta
-                    mampu berkembang sehat dan mandiri.
+                    2. To become a resilient trading company in Indonesia on a
+                    national scale, reliable, innovative, and competitive,
+                    capable of growing healthily and independently.
                   </li>
                   <li>
-                    3. Menjadi perusahaan yang mampu memberikan solusi bisnis
-                    berbasis teknologi informasi dan komunikasi sesuai dengan
-                    kebutuhan pembeli.
+                    3. To become a company that can provide business solutions
+                    based on information and communication technology tailored
+                    to the needs of buyers.
                   </li>
                   <li>
-                    4. Menjadi Most Update Solution Agency yang memberikan jasa
-                    terintegrasi dan dilakukan secara profesional oleh tenaga
-                    ahli dibidang Retail, Human Resource dan Event Management
-                    untuk menyukseskan usaha klien dalam memperbesar brand
-                    exposure kepada konsumen.
+                    4. To become the Most Update Solution Agency offering
+                    integrated services carried out professionally by experts in
+                    Retail, Human Resources, and Event Management, aiming to
+                    help clients succeed in expanding their brand exposure to
+                    consumers.
                   </li>
                 </ul>
               </div>
             </div>
             <div className="basis-1/2">
-              <h2 className="text-2xl font-bold py-4">Misi</h2>
+              <h2 className="text-2xl font-bold py-4">Mission</h2>
               <div className="min-h-[500px] bg-sky-900 p-4 rounded-md text-white">
                 <ul>
                   <li>
-                    1. Mengoptimalkan nilai perusahaan, kontribusi kepada
-                    pemegang saham dan tanggungjawab sosial.
+                    1. Optimize company value, contribute to shareholders, and
+                    uphold social responsibility.
                   </li>
-                  <li>2. Memperluas produk-produk yang bernilai tambah.</li>
-                  <li>3. Mengembangkan usaha baru berbasis kompetensi.</li>
+                  <li>2. Expand value-added products.</li>
+                  <li>3. Develop new businesses based on competencies.</li>
                   <li>
-                    4. Mewujudkan harmonisasi dan komunikasi yang lebih baik
-                    kepada semua pihak
-                  </li>
-                  <li>
-                    5. Mejadikan kepuasan pelanggan sebagai prioritas utama
-                    melalui produk yang bermutu.
+                    4. Establish better harmony and communication with all
+                    stakeholders.
                   </li>
                   <li>
-                    6. Memberdayakan manajemen perusahaan yang profesional dan
-                    meningkatkan kompetensi sumber daya manusia.
+                    5. Make customer satisfaction a top priority through quality
+                    products.
                   </li>
                   <li>
-                    7. Mengembangkan sumber daya manusia professional. 8.
-                    Mengedepankan kinerja yang tepat waktu dan efisien untuk
-                    mencapai kesuksesan bersama.
+                    6. Empower professional company management and enhance human
+                    resource competencies.
                   </li>
                   <li>
-                    9. Meningkatkan nilai perusahaan melalui kreativitas dan
-                    integritas dengan mengembangkan SDM yang berkompeten.
+                    7. Develop professional human resources. 8. Prioritize
+                    timely and efficient performance to achieve mutual success.
                   </li>
                   <li>
-                    10. Memberikan pelayanan terbaik dari setiap pekerjaan yang
-                    diberikan dengan standar yang tinggi
+                    9. Enhance company value through creativity and integrity by
+                    developing competent human resources.
                   </li>
                   <li>
-                    11. Menjadikan produk klien sukses di market dari usaha jasa
-                    yang diberikan
+                    10. Provide the best service in every task with high
+                    standards.
                   </li>
                   <li>
-                    12. Melakukan prinsip RQS ( Quick Response, Best Quality,
-                    Excellent Services) dalam memberikan pelayanan kepada
-                    client.
+                    11. Ensure client products succeed in the market through the
+                    services provided.
+                  </li>
+                  <li>
+                    12. Apply the RQS principle (Quick Response, Best Quality,
+                    Excellent Services) in delivering services to clients.
                   </li>
                 </ul>
               </div>
