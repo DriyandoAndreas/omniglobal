@@ -163,7 +163,7 @@ export default function page() {
         <div className="py-8">
           <div>
             <h2 className="text-4xl font-bold text-center">
-              Struktur Organisasi
+              Organization Structure
             </h2>
           </div>
           <div className="flex justify-center py-4">
