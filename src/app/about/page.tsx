@@ -32,7 +32,7 @@ export default function page() {
         <div className="py-8">
           <div className="md:flex lg:space-x-4">
             <div className="basis-1/2">
-              <h2 className="text-2xl font-bold py-4">Visiion</h2>
+              <h2 className="text-2xl font-bold py-4">Vision</h2>
               <div className="min-h-[500px] bg-sky-900 text-white p-8 rounded-md">
                 <ul>
                   <li className="leading-relaxed">
