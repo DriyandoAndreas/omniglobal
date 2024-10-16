@@ -35,22 +35,22 @@ export default function page() {
               <h2 className="text-2xl font-bold py-4">Visiion</h2>
               <div className="min-h-[500px] bg-sky-900 text-white p-8 rounded-md">
                 <ul>
-                  <li>
+                  <li className="leading-relaxed">
                     1. To become a competitive, high-quality, and competent
                     trading company that masters both domestic and international
                     marketing resources and networks.
                   </li>
-                  <li>
+                  <li className="leading-relaxed">
                     2. To become a resilient trading company in Indonesia on a
                     national scale, reliable, innovative, and competitive,
                     capable of growing healthily and independently.
                   </li>
-                  <li>
+                  <li className="leading-relaxed">
                     3. To become a company that can provide business solutions
                     based on information and communication technology tailored
                     to the needs of buyers.
                   </li>
-                  <li>
+                  <li className="leading-relaxed">
                     4. To become the Most Update Solution Agency offering
                     integrated services carried out professionally by experts in
                     Retail, Human Resources, and Event Management, aiming to
@@ -64,41 +64,45 @@ export default function page() {
               <h2 className="text-2xl font-bold py-4">Mission</h2>
               <div className="min-h-[500px] bg-sky-900 p-8 rounded-md text-white">
                 <ul>
-                  <li>
+                  <li className="leading-relaxed">
                     1. Optimize company value, contribute to shareholders, and
                     uphold social responsibility.
                   </li>
-                  <li>2. Expand value-added products.</li>
-                  <li>3. Develop new businesses based on competencies.</li>
-                  <li>
+                  <li className="leading-relaxed">
+                    2. Expand value-added products.
+                  </li>
+                  <li className="leading-relaxed">
+                    3. Develop new businesses based on competencies.
+                  </li>
+                  <li className="leading-relaxed">
                     4. Establish better harmony and communication with all
                     stakeholders.
                   </li>
-                  <li>
+                  <li className="leading-relaxed">
                     5. Make customer satisfaction a top priority through quality
                     products.
                   </li>
-                  <li>
+                  <li className="leading-relaxed">
                     6. Empower professional company management and enhance human
                     resource competencies.
                   </li>
-                  <li>
+                  <li className="leading-relaxed">
                     7. Develop professional human resources. 8. Prioritize
                     timely and efficient performance to achieve mutual success.
                   </li>
-                  <li>
-                    9. Enhance company value through creativity and integrity by
+                  <li className="leading-relaxed">
+                    8. Enhance company value through creativity and integrity by
                     developing competent human resources.
                   </li>
-                  <li>
-                    10. Provide the best service in every task with high
+                  <li className="leading-relaxed">
+                    9. Provide the best service in every task with high
                     standards.
                   </li>
-                  <li>
-                    11. Ensure client products succeed in the market through the
+                  <li className="leading-relaxed">
+                    10. Ensure client products succeed in the market through the
                     services provided.
                   </li>
-                  <li>
+                  <li className="leading-relaxed">
                     12. Apply the RQS principle (Quick Response, Best Quality,
                     Excellent Services) in delivering services to clients.
                   </li>

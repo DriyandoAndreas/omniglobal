@@ -1,5 +1,6 @@
 import React from "react";
 import { Mail, Phone } from "lucide-react";
+import Link from "next/link";
 export default function Footer() {
   return (
     <>
@@ -20,7 +21,11 @@ export default function Footer() {
                   <div>
                     <Phone />
                   </div>
-                  <div>+628-123-456-678</div>
+                  <div>
+                    <Link href={"https://wa.me/082138830051"}>
+                      +6282-138-830-051
+                    </Link>
+                  </div>
                 </div>
                 <div className="flex space-x-2">
                   <div>

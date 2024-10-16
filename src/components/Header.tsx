@@ -3,7 +3,7 @@ import React, { useState, useRef, useEffect } from "react";
 import logo from "@/app/assets/images/omnilogo.png";
 import { Button } from "@/components/ui/button";
 import Image from "next/image";
-import { Menu, X,Phone } from "lucide-react"; 
+import { Menu, X, Phone } from "lucide-react";
 import Link from "next/link";
 import { Moon, Sun } from "lucide-react";
 import { useTheme } from "next-themes";
@@ -18,12 +18,11 @@ export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const menuRef = useRef<HTMLDivElement>(null);
   const { setTheme } = useTheme();
-  
+
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
   };
 
-  
   useEffect(() => {
     const handleClickOutside = (event: MouseEvent) => {
       if (menuRef.current && !menuRef.current.contains(event.target as Node)) {
@@ -94,14 +93,16 @@ export default function Header() {
             </div>
           </div>
           <div>
-            <Button variant="outline">
-              <div className="flex space-x-2">
-                <div>
-                  <Phone size={20} />
+            <Link href={"https://wa.me/082138830051"}>
+              <Button variant="outline">
+                <div className="flex space-x-2">
+                  <div>
+                    <Phone size={20} />
+                  </div>
+                  <div>+6282-138-830-051</div>
                 </div>
-                <div>+628123456789</div>
-              </div>
-            </Button>
+              </Button>
+            </Link>
           </div>
           <div>
             <Button className="bg-sky-600 font-bold hover:bg-sky-800 dark:hover:bg-sky-500 dark:text-white">
@@ -136,19 +137,23 @@ export default function Header() {
             Contact Us
           </Link>
           <div>
-            <Button variant="outline">
-              <div className="flex space-x-2">
-                <div>
-                  <Phone size={20} />
+            <Link href={"https://wa.me/082138830051"}>
+              <Button variant="outline">
+                <div className="flex space-x-2">
+                  <div>
+                    <Phone size={20} />
+                  </div>
+                  <div>+6282-138-830-051</div>
                 </div>
-                <div>+628123456789</div>
-              </div>
-            </Button>
+              </Button>
+            </Link>
           </div>
           <div>
-            <Button className="bg-sky-600 font-bold hover:bg-sky-800 dark:hover:bg-sky-500 dark:text-white">
-              JOIN US
-            </Button>
+            <Link href={"https://wa.me/082138830051"}>
+              <Button className="bg-sky-600 font-bold hover:bg-sky-800 dark:hover:bg-sky-500 dark:text-white">
+                JOIN US
+              </Button>
+            </Link>
           </div>
           <div>
             <DropdownMenu>
