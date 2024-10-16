@@ -44,7 +44,7 @@ export default function Header() {
   return (
     <>
       {/* Desktop Nav */}
-      <nav className="hidden lg:flex items-center justify-between px-8 py-4 top-0 sticky z-40 bg-white dark:bg-black">
+      <nav className="hidden lg:flex items-center justify-between px-8 py-4 top-0 sticky z-40 bg-white dark:bg-black border-b-4 border-lime-400">
         <div className="flex p-2 space-x-4">
           <Link href={"/"}>
             <Image src={logo} alt="omni global" height={75} priority={true} />
@@ -112,7 +112,7 @@ export default function Header() {
         </div>
       </nav>
 
-      <nav className="lg:hidden flex px-4 py-2 justify-between items-center">
+      <nav className="lg:hidden flex px-4 py-2 justify-between items-center border-b-4 border-lime-400">
         <Link href={"/"}>
           <Image src={logo} alt="omni global" height={40} priority={true} />
         </Link>
