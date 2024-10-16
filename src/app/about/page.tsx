@@ -150,9 +150,7 @@ export default function page() {
                   <CardTitle className="flex justify-center">
                     <User size={40} />
                   </CardTitle>
-                  <CardTitle className="text-center py-4">
-                    Putra Restu
-                  </CardTitle>
+                  <CardTitle className="text-center py-4">Sigit</CardTitle>
                 </CardHeader>
                 <CardContent>
                   <p className="text-center">Team Leader</p>
