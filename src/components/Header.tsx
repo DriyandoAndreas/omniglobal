@@ -93,7 +93,7 @@ export default function Header() {
             </div>
           </div>
           <div>
-            <Link href={"wa.link/yd2xa9"}>
+            <Link href={"https://wa.link/yd2xa9"}>
               <Button variant="outline">
                 <div className="flex space-x-2">
                   <div>
@@ -137,7 +137,7 @@ export default function Header() {
             Contact Us
           </Link>
           <div>
-            <Link href={"wa.link/yd2xa9"}>
+            <Link href={"https://wa.link/yd2xa9"}>
               <Button variant="outline">
                 <div className="flex space-x-2">
                   <div>
@@ -149,7 +149,7 @@ export default function Header() {
             </Link>
           </div>
           <div>
-            <Link href={"wa.link/yd2xa9"}>
+            <Link href={"https://wa.link/yd2xa9"}>
               <Button className="bg-sky-600 font-bold hover:bg-sky-800 dark:hover:bg-sky-500 dark:text-white">
                 JOIN US
               </Button>

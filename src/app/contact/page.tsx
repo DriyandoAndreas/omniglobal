@@ -24,7 +24,7 @@ export default function page() {
                 <Phone />
               </div>
               <div>
-                <Link href={"wa.link/yd2xa9"}>+6282-138-830-051</Link>
+                <Link href={"https://wa.link/yd2xa9"}>+6282-138-830-051</Link>
               </div>
             </div>
             <div className="flex space-x-2">
