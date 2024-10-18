@@ -22,9 +22,7 @@ export default function Footer() {
                     <Phone />
                   </div>
                   <div>
-                    <Link href={"https://wa.me/082138830051"}>
-                      +6282-138-830-051
-                    </Link>
+                    <Link href={"wa.link/yd2xa9"}>+6282-138-830-051</Link>
                   </div>
                 </div>
                 <div className="flex space-x-2">
