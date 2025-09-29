@@ -1,6 +1,5 @@
 import React from "react";
 import { Mail, Phone } from "lucide-react";
-import Link from "next/link";
 export default function Footer() {
   return (
     <>
