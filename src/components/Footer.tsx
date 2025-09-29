@@ -10,8 +10,7 @@ export default function Footer() {
             <div className="lg:basis-1/4">
               <div className="font-bold pb-4">PT. Omni Milenia Global</div>
               <div>
-                Jl. Dewi Sartika No.3A, RT.3/RW.13, Cililitan, Kec. Kramat jati,
-                Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13640
+               Jl. Lotus Utara 1, RSOC No.17, RT.004/RW.019, Jaka Setia, Bekasi Selatan, Bekasi, West Java 17147
               </div>
             </div>
             <div className="lg:basis-1/4">
@@ -22,9 +21,7 @@ export default function Footer() {
                     <Phone />
                   </div>
                   <div>
-                    <Link href={"https://wa.link/yd2xa9"}>
-                      +6282-138-830-051
-                    </Link>
+                     02138711299
                   </div>
                 </div>
                 <div className="flex space-x-2">
@@ -40,7 +37,7 @@ export default function Footer() {
       </div>
       <div className="flex justify-center bg-sky-900 p-2">
         <div className="text-white text-xs">
-          &copy; Copyright 2024, PT Omni Milenia Global. All Rights Reserved.
+          &copy; Copyright 2025, PT Omni Milenia Global. All Rights Reserved.
         </div>
       </div>
     </>
