@@ -10,7 +10,7 @@ export default function Footer() {
             <div className="lg:basis-1/4">
               <div className="font-bold pb-4">PT. Omni Milenia Global</div>
               <div>
-               Jl. Lotus Utara 1, RSOC No.17, RT.004/RW.019, Jaka Setia, Bekasi Selatan, Bekasi, West Java 17147
+               `Jl. Lotus Utara 1, RSOC No.17, RT.004/RW.019, Jaka Setia, Bekasi Selatan, Bekasi, West Java 17147`
               </div>
             </div>
             <div className="lg:basis-1/4">
@@ -21,7 +21,7 @@ export default function Footer() {
                     <Phone />
                   </div>
                   <div>
-                     02138711299
+                    ` 02138711299`
                   </div>
                 </div>
                 <div className="flex space-x-2">

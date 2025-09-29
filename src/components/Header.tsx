@@ -128,7 +128,7 @@ export default function Header() {
             Contact Us
           </Link>
           <div>
-           02138711299
+           `02138711299`
           </div>
           <div>
             <Link href={"https://wa.link/yd2xa9"}>
