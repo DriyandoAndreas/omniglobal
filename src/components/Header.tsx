@@ -99,7 +99,7 @@ export default function Header() {
                   <div>
                     <Phone size={20} />
                   </div>
-                  <div>+6282-138-830-051</div>
+                  <div>02138711299</div>
                 </div>
               </Button>
             </Link>
@@ -143,7 +143,7 @@ export default function Header() {
                   <div>
                     <Phone size={20} />
                   </div>
-                  <div>+6282-138-830-051</div>
+                  <div>02138711299</div>
                 </div>
               </Button>
             </Link>
